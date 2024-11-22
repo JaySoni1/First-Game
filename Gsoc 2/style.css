@@ -1,0 +1,73 @@
+/* style.css */
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ff0000; 
+    color: #000000;
+}
+
+.game-container {
+    display: flex;
+    text-align: left;
+    padding: 30px;
+    border-radius: 12px;
+    height: 30%;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+    width: 70%;
+    color: #000000;
+    background-color: #f8f9fa;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #000000;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+p {
+    font-size: 18px;
+    color: #000000;
+    margin: 10px 0;
+}
+
+#message {
+    font-weight: bold;
+    font-size: 22px;
+    color: #000000; 
+    margin-top: 15px;
+}
+
+button {
+    padding: 12px 24px;
+    font-size: 16px;
+    margin: 10px 5px;
+    background-color: #000000; /* Muted button color */
+    color: #3be93b;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: 'Verdana', sans-serif;
+}
+
+button:hover {
+    background-color: #030000; 
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+button:active {
+    transform: scale(1);
+    background-color: #343a40;
+}
+
+#points {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+}

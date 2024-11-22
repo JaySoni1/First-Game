@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>In Between Card Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>In Between Card Game</h1>
+        <p id="cards">Card 1: <span id="card1">?</span> | Card 2: <span id="card2">?</span></p>
+        <button onclick="drawCards()">Draw Cards</button>
+        <button onclick="guessInBetween()">Guess In Between</button>
+        <button onclick="guessOutside()">Guess Outside</button>
+        <p id="message"></p>
+        <button onclick="resetGame()">Reset Game</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
